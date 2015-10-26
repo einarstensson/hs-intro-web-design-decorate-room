@@ -1,33 +1,33 @@
 $(document).ready(function(){
 
   $('#chair').click(function(){
-      //code solution here
+      $('.blue-chair').append("<img src='images/blue-chair.png'>");
   });
 
   $('#couch').click(function(){
-    //code solution here
+      $('.couch').append("<img src='images/couch.png'>");
   });
 
   $('#chandelier').click(function(){
-  //code solution here
+    $('.chandelier').append("<img src='images/chandelier.png'>");
   });
 
   $('#frame-art').click(function(){
-  //code solution here
-  });
+    $('#art').addClass('frame-art');
+  })
 
   $('#eat-pizza').click(function(){
-    //code solution here
+    $('#pizza').toggle();
   });
 
   $('#add-tv').click(function(){
-    //code solution here
+    $('.tv').append("<img src='images/off-tv.png'>");
   });
 
   $('#watch-tv').click(function(){
-    //code solution here
+    $('.tv img').replaceWith("<img src='images/tv.png'>");
   });
 
 
 
-});
+}); 
