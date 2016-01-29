@@ -25,4 +25,4 @@ You'll be coding your solution in `js/decorate.js`. You'll want to open up `inde
 **Step 6:**  When a user clicks the button `Watch TV`, the `tv.png` image should appear in the house instead of the `off-tv.png`. You'll need to use the `replaceWith` function on the image inside the `div` with the class `tv`to replace the images.
 
 Done and done! 
-<a href='https://learn.co/lessons/hs-intro-web-design-decorate-room' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-intro-web-design-decorate-room' title='Room Decorator'>Room Decorator</a> on Learn.co and start learning to code for free.</p>
